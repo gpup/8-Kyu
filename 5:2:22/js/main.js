@@ -9,3 +9,9 @@ function plural(n) {
       return true;
     }
   }
+
+
+  // This would also work and be much cleaner
+  function plural(n) {
+    return n !== 1;
+  }
